@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+    <meta charset="UTF-8">
+    <title>Game Selection</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .game-container {
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .game-image {
+            cursor: pointer;
+            transition: transform 0.2s;
+            margin: 0 20px;
+        }
+
+        .game-image:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Select a Game</h1>
+        <a href="tic.html">
+            <img class="game-image" src="images/tick.png" alt="Tic-Tac-Toe Image" width="200" height="200">
+        </a>
+        <a href="snakegame.html">
+            <img class="game-image" src="images/snack.jfif" alt="Snake Game Image" width="200" height="200">
+        </a>
+    </div>
+</body>
+</html>
